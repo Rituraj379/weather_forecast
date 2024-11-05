@@ -84,3 +84,18 @@ div {
     font-size: 1rem;
     color: #cccccc;
 }
+
+/* Weather icon styling */
+#imgg img {
+    width: 80px;                /* Set icon width */
+    height: 80px;               /* Set icon height */
+    margin-top: 10px;           /* Space above icon */
+    border-radius: 50%;         /* Circular icon */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: transform 0.2s ease; /* Smooth scaling transition */
+}
+
+/* Hover effect */
+#imgg img:hover {
+    transform: scale(1.1);      /* Slight enlargement on hover */
+}
